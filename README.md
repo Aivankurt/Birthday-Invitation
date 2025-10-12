@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cemee’s Birthday Invitation</title>
+  <title>Ninong Ry's Birthday Celebration</title>
 
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <style>
+    /* ===== General Styles ===== */
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #f9d423, #ff4e50);
@@ -19,6 +21,7 @@
       min-height: 100vh;
     }
 
+    /* ===== Invitation Card ===== */
     .invitation {
       background-color: #fff;
       width: 90%;
@@ -30,55 +33,62 @@
       padding-bottom: 25px;
     }
 
-    header {
+    /* ===== Header ===== */
+    .invitation-header {
       background-color: #ff4e50;
       color: white;
       padding: 20px;
     }
 
-    header h1 {
+    .invitation-header h1 {
       margin: 0;
       font-size: 26px;
     }
 
+    /* ===== Cover Image ===== */
     .cover-photo {
       width: 100%;
       height: 250px;
       object-fit: cover;
+      display: block;
     }
 
-    section {
+    /* ===== Section Styles ===== */
+    .invitation-section {
       padding: 20px;
       text-align: left;
     }
 
-    section h2 {
+    .invitation-section h2 {
       color: #ff4e50;
       font-size: 20px;
       margin-bottom: 10px;
     }
 
-    section p, li {
+    .invitation-section p, 
+    .invitation-section li {
       color: #444;
       font-size: 15px;
       line-height: 1.6;
     }
 
-    ul {
+    .invitation-section ul {
       padding-left: 20px;
     }
 
-    a {
+    /* ===== Links ===== */
+    .invitation a {
       color: #ff4e50;
       font-weight: bold;
       text-decoration: none;
     }
 
-    a:hover {
+    .invitation a:hover {
       text-decoration: underline;
     }
 
-    footer {
+    /* ===== Footer ===== */
+    .invitation-footer {
       margin-top: 20px;
       font-size: 14px;
       color: #666;
@@ -89,20 +99,20 @@
 <body>
 
   <div class="invitation">
-    <header>
-      <h1>🎉 You’re Invited to Cemee’s Birthday Party! 🎂</h1>
+    <header class="invitation-header">
+      <h1>🎉 You’re Invited to Ninong Ry's Birthday Party! 🎂</h1>
     </header>
 
     <img src="https://i.imgur.com/xGqQK4Y.jpg" alt="Birthday Party" class="cover-photo">
 
-    <section>
+    <section class="invitation-section">
       <h2>Event Details</h2>
       <p><strong>Date:</strong> October 21, 2025</p>
       <p><strong>Time:</strong> 4:00 PM – 9:00 PM</p>
       <p><strong>Venue:</strong> 123 Sunshine Street, Happyville</p>
     </section>
 
-    <section>
+    <section class="invitation-section">
       <h2>What to Bring</h2>
       <ul>
         <li>Your beautiful smile 😊</li>
@@ -111,30 +121,30 @@
       </ul>
     </section>
 
-    <section>
+    <section class="invitation-section">
       <h2>RSVP</h2>
       <p>Please confirm by sending an email to 
-        <a href="mailto:faithbirthday2025@gmail.com">faithbirthday2025@gmail.com</a>
+        <a href="mailto:Ninong@gmail.com">Ninong@gmail.com</a>
       </p>
     </section>
 
-    <section>
+    <section class="invitation-section">
       <h2>Map Location</h2>
       <p>Check the party location on 
         <a href="https://maps.google.com/?q=123+Sunshine+Street+Happyville" target="_blank">
-          Google Maps 📍
+          Google Maps
         </a>
       </p>
     </section>
 
-    <section>
+    <section class="invitation-section">
       <h2>Contact Person</h2>
-      <p><strong>Cemee Faith Escarilla</strong></p>
-      <p>contact number: 0912-345-6789</p>
+      <p><strong>Ninong Ry</strong></p>
+      <p>Contact number: 0912-345-6789</p>
     </section>
 
-    <footer>
-      <p>Can’t wait to celebrate this special day with you! </p>
+    <footer class="invitation-footer">
+      <p>Can’t wait to celebrate this special day with you!</p>
     </footer>
   </div>
 
