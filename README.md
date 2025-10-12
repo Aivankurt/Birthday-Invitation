@@ -5,11 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ninong Ry's Birthday Celebration</title>
 
-  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
+  
   <style>
-    /* ===== General Styles ===== */
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #f9d423, #ff4e50);
@@ -21,7 +19,6 @@
       min-height: 100vh;
     }
 
-    /* ===== Invitation Card ===== */
     .invitation {
       background-color: #fff;
       width: 90%;
@@ -33,7 +30,6 @@
       padding-bottom: 25px;
     }
 
-    /* ===== Header ===== */
     .invitation-header {
       background-color: #ff4e50;
       color: white;
@@ -44,8 +40,7 @@
       margin: 0;
       font-size: 26px;
     }
-
-    /* ===== Cover Image ===== */
+    
     .cover-photo {
       width: 100%;
       height: 250px;
@@ -53,7 +48,6 @@
       display: block;
     }
 
-    /* ===== Section Styles ===== */
     .invitation-section {
       padding: 20px;
       text-align: left;
@@ -76,7 +70,6 @@
       padding-left: 20px;
     }
 
-    /* ===== Links ===== */
     .invitation a {
       color: #ff4e50;
       font-weight: bold;
