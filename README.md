@@ -36,7 +36,7 @@
       padding: 20px;
     }
 
-    .invitation-header h1 {
+    .invitation-header {
       margin: 0;
       font-size: 26px;
     }
@@ -53,34 +53,35 @@
       text-align: left;
     }
 
-    .invitation-section h2 {
+    .invitation-section {
       color: #ff4e50;
       font-size: 20px;
       margin-bottom: 10px;
     }
 
-    .invitation-section p, 
-    .invitation-section li {
+    .invitation-section 
+
+    .invitation-section {
       color: #444;
       font-size: 15px;
       line-height: 1.6;
     }
 
-    .invitation-section ul {
+    .invitation-section  {
       padding-left: 20px;
     }
 
-    .invitation a {
+    .invitation-section {
       color: #ff4e50;
       font-weight: bold;
       text-decoration: none;
     }
 
-    .invitation a:hover {
-      text-decoration: underline;
+    .invitation-section  {
+      text-decoration: none;
     }
 
-    .invitation-footer {
+    .invitation-section {
       margin-top: 20px;
       font-size: 14px;
       color: #666;
@@ -115,9 +116,7 @@
 
     <section class="invitation-section">
       <h2>RSVP</h2>
-      <p>Please confirm by sending an email to 
-        <a href="mailto:Ninong@gmail.com">Ninong@gmail.com</a>
-      </p>
+      <p>Please confirm by sending an email to: </p>
     </section>
 
     <section class="invitation-section">
@@ -131,7 +130,7 @@
 
     <section class="invitation-section">
       <h2>Contact Person</h2>
-      <p><strong>Ninong Ry</strong></p>
+      <p><strong> <a href="mailto:Ninong@gmail.com">Ninong@gmail.com</a></strong></p>
       <p>Contact number: 0912-345-6789</p>
     </section>
 
