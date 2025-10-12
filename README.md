@@ -80,7 +80,6 @@
       text-decoration: underline;
     }
 
-    /* ===== Footer ===== */
     .invitation-footer {
       margin-top: 20px;
       font-size: 14px;
@@ -96,7 +95,7 @@
       <h1>🎉 You’re Invited to Ninong Ry's Birthday Party! 🎂</h1>
     </header>
 
-    <img src="https://i.imgur.com/xGqQK4Y.jpg" alt="Birthday Party" class="cover-photo">
+    <img src="https://blog.ninjavan.co/en-ph/wp-content/uploads/sites/2/2023/07/Ninong-Ry.jpg" alt="Birthday Party">
 
     <section class="invitation-section">
       <h2>Event Details</h2>
