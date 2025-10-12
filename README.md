@@ -34,9 +34,6 @@
       background-color: #ff4e50;
       color: white;
       padding: 20px;
-    }
-
-    .invitation-header {
       margin: 0;
       font-size: 26px;
     }
@@ -48,40 +45,36 @@
       display: block;
     }
 
+    /* Fixed invalid selector repetition */
     .invitation-section {
       padding: 20px;
       text-align: left;
-    }
-
-    .invitation-section {
-      color: #ff4e50;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .invitation-section 
-
-    .invitation-section {
       color: #444;
       font-size: 15px;
       line-height: 1.6;
     }
 
-    .invitation-section  {
-      padding-left: 20px;
+    .invitation-section h2 {
+      color: #ff4e50;
+      font-size: 20px;
+      margin-bottom: 10px;
     }
 
-    .invitation-section {
+    .invitation-section a {
       color: #ff4e50;
       font-weight: bold;
       text-decoration: none;
     }
 
-    .invitation-section  {
-      text-decoration: none;
+    .invitation-section a:hover {
+      text-decoration: underline;
     }
 
-    .invitation-section {
+    .invitation-section ul {
+      padding-left: 20px;
+    }
+
+    footer.invitation-section {
       margin-top: 20px;
       font-size: 14px;
       color: #666;
@@ -92,17 +85,17 @@
 <body>
 
   <div class="invitation">
-    <header class="invitation-section">
+    <header class="invitation-header">
       <h1>🎉 You’re Invited to Ninong Ry's Birthday Party! 🎂</h1>
     </header>
 
-    <img src="https://blog.ninjavan.co/en-ph/wp-content/uploads/sites/2/2023/07/Ninong-Ry.jpg" alt="Birthday Party">
+    <img src="https://blog.ninjavan.co/en-ph/wp-content/uploads/sites/2/2023/07/Ninong-Ry.jpg" alt="Birthday Party" class="cover-photo">
 
     <section class="invitation-section">
-      <a><h2>Event Details</h2>
+      <h2>Event Details</h2>
       <p><strong>Date:</strong> October 21, 2025</p>
       <p><strong>Time:</strong> 4:00 PM – 9:00 PM</p>
-      <p><strong>Venue:</strong> 123 Sunshine Street, Happyville</p></a>
+      <p><strong>Venue:</strong> 123 Sunshine Street, Happyville</p>
     </section>
 
     <section class="invitation-section">
@@ -116,15 +109,14 @@
 
     <section class="invitation-section">
       <h2>RSVP</h2>
-      <p>Please confirm by sending an email to: </p>
-      <p><strong> <a href="mailto:Ninong@gmail.com">ninong@gmail.com</a></strong></p>
+      <p>Please confirm by sending an email to:</p>
+      <p><strong><a href="mailto:ninong@gmail.com">ninong@gmail.com</a></strong></p>
     </section>
 
     <section class="invitation-section">
       <h2>Map Location</h2>
       <p>Check the party location on  
-
-        <a href="https://maps.google.com/?q=123+Sunshine+Street+Happyville" target="_blank"> Google Maps</a>
+        <a href="https://maps.google.com/?q=123+Sunshine+Street+Happyville" target="_blank">Google Maps</a>
       </p>
     </section>
 
@@ -134,9 +126,10 @@
     </section>
 
     <footer class="invitation-section">
-      <p> We can’t wait to celebrate this special day with you!</p>
+      <p>We can’t wait to celebrate this special day with you!</p>
     </footer>
   </div>
 
 </body>
 </html>
+fonts.googleapis.com
